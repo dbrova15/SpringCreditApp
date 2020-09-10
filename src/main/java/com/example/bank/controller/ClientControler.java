@@ -221,7 +221,13 @@ public class ClientControler {
         client.setDecision(decision);
 
         // Update decision in database
-        db.updateDecision(shortId, decision);
+        try{
+            db.updateDecision(shortId, decision);
+        } catch (SQLException | ClassNotFoundException throwables) {
+            throwables.printStackTrace();
+            String textError = "ERROR: " + throwables.getMessage();
+            logger.error(textError);
+        }
 
         logger.info("End post request ");
         logger.info(client);
