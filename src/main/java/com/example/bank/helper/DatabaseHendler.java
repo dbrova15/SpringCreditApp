@@ -8,9 +8,15 @@ import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Класс управления подключения к базе с параметром <b>dbConnection</b>.
+ */
 public class DatabaseHendler extends dbConfig {
     Connection dbConnection;
 
+    /**
+     * Метод для создания подключения
+     */
     public Connection getDbConnection() throws ClassNotFoundException, SQLException {
         String connectoinString = "jdbc:postgresql://" + dbHost + "/" + dbName;
         Class.forName("org.postgresql.Driver");
@@ -18,20 +24,9 @@ public class DatabaseHendler extends dbConfig {
         return dbConnection;
     }
 
-    /*
-    {"idxRef":"Test12323123",
-    "idClient":20,
-    "dateBirthday":"1990-04-23",
-    "phone":"380991234567",
-    "mail":"test@mail.com",
-    "address":"Dnepr, Main Str, 19",
-    "monthSalary":10000.0,
-    "currSalary":"USD",
-    "decision":null,
-    "limitItog":null}
+    /**
+     * Set Client data to base
      */
-
-    // Set Client data to base
     public void setClient(String idxRef, Long idClient, Date dateBirthday, String phone,
                           String mail, String address, Float monthSalary, String currSalary,
                           String decision, Float limitItog) throws SQLException, ClassNotFoundException {
@@ -60,10 +55,12 @@ public class DatabaseHendler extends dbConfig {
         prSt.executeUpdate();
     }
 
-    // Get all clients credits
-    public List <Credit> selectAllByidClient(Long IdClient) throws SQLException, ClassNotFoundException {
+    /**
+     * Get all clients credits
+     */
+    public List<Credit> selectAllByidClient(Long IdClient) throws SQLException, ClassNotFoundException {
 
-        List <Credit> credits_list = new ArrayList<>();
+        List<Credit> credits_list = new ArrayList<>();
 
         String req = "SELECT * FROM CREDIT WHERE id_credit = ? and state_credit = 'O'";
 
@@ -85,7 +82,9 @@ public class DatabaseHendler extends dbConfig {
         return credits_list;
     }
 
-    // Get all data from the Client table
+    /**
+     * Get all data from the Client table
+     */
     public List<Client> selectAllClients() throws SQLException, ClassNotFoundException {
         List<Client> clients = new ArrayList<>();
 
@@ -117,7 +116,9 @@ public class DatabaseHendler extends dbConfig {
         return clients;
     }
 
-    // Update decision
+    /**
+     * Update decision
+     */
     public void updateDecision(String shortId, String decision) throws SQLException, ClassNotFoundException {
 
         // make request string

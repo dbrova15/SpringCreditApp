@@ -24,33 +24,60 @@ import java.util.Date;
 import java.util.List;
 
 
+/**
+ * Класс контроллера API со свойствами <b>db</b>, * <b>indexPhone</b>,
+ * <b>sumAmtCredit</b>, * <b>limitItog</b>, * <b>decision</b>.
+ */
 @RestController
 @RequestMapping("client")
 public class ClientControler {
     Logger logger = LogManager.getLogger(ClientControler.class);
 
+    /**
+     * Объект базы данных
+     */
     private final DatabaseHendler db = new DatabaseHendler();
-    private RequestJson RequestJson;
+    /**
+     * Коэффициент относительно кода номера телефона
+     */
     public double indexPhone;
-    private double sumAmtCredit; // сумма задолжености по кредитам
+    /**
+     * сумма задолжености по кредитам
+     */
+    private double sumAmtCredit;
+    /**
+     * сумма кредита
+     */
     private double limitItog;
+    /**
+     * решение по заявке
+     */
     private String decision;
 
-
-
+    /**
+     * Функция получения данных обо всех клиентах
+     *
+     * @return возвращает список клиентов
+     */
     @GetMapping
     public List<Client> list() {
         List<Client> clients = null;
 
-        try{
+        try {
             clients = db.selectAllClients();
         } catch (SQLException | ClassNotFoundException throwables) {
             throwables.printStackTrace();
         }
         return clients;
-    };
+    }
 
-    // Get coefficient by mobile phone
+    ;
+
+    /**
+     * Расчет коэффициента относительно кода номера телефона
+     *
+     * @return Коэффициент относительно кода номера телефона
+     */
     public double checkPhone(String phoneNamber) {
         int lifecell1 = phoneNamber.lastIndexOf("093");
         int lifecell2 = phoneNamber.lastIndexOf("063");
@@ -80,53 +107,41 @@ public class ClientControler {
             return 0.92;
         }
         return 0.92;
-    };
+    }
 
+    ;
+
+    /**
+     * КОнвертация LocalDate в java.sql.Date
+     *
+     * @return объект java.sql.Date
+     */
     public LocalDate convertToLocalDateViaSqlDate(Date dateToConvert) {
         return new java.sql.Date(dateToConvert.getTime()).toLocalDate();
     }
 
-    @PostMapping("test")
-    public Client create_test(@RequestBody Client client) throws IOException, SQLException, ClassNotFoundException {
-//        UUID uuid = UUID.randomUUID();
-//        String randomUUIDString = uuid.toString();
-
-        String shortId = RandomStringUtils.random(30, "0123456789abcdef");
-        client.setIdxRef(shortId);
-
-        db.setClient(client.getIdxRef(), client.getIdClient(), client.getDateBirthday(),
-                client.getPhone(), client.getMail(),
-                client.getAddress(), client.getMonthSalary(), client.getCurrSalary(),
-                client.getDecision(), client.getLimitItog());
-        return client;
-    }
-
-    @GetMapping("test")
-    public String test() {
-        logger.trace("A TRACE Message");
-        logger.debug("A DEBUG Message");
-        logger.info("An INFO Message");
-        logger.warn("A WARN Message");
-        logger.error("An ERROR Message");
-        return "test";
-    }
-
+    /**
+     * Post запрос на создание заявки
+     *
+     * @param jsonString Example:
+     *                   {
+     *                   "idClient":2,
+     *                   "dateBirthday":"1990-04-23",
+     *                   "phone":380991234567,
+     *                   "mail":"test@mail.com",
+     *                   "address":"Dnepr, Main Str, 19",
+     *                   "monthSalary":10000,
+     *                   "currSalary":"USD",
+     *                   "requestLimit":40000
+     *                   }
+     * @return String IdxRef
+     */
 
     @PostMapping
     public String create(@RequestBody String jsonString) throws IOException {
-        /*
-        {
-           "idClient":2,
-           "dateBirthday":"1990-04-23",
-           "phone":380991234567,
-           "mail":"test@mail.com",
-           "address":"Dnepr, Main Str, 19",
-           "monthSalary":10000,
-           "currSalary":"USD",
-           "requestLimit":40000
-        }
-         */
 
+
+        // список кредитов
         Iterable<Credit> credits = null;
 
         // Parse Json data
@@ -221,7 +236,7 @@ public class ClientControler {
         client.setDecision(decision);
 
         // Update decision in database
-        try{
+        try {
             db.updateDecision(shortId, decision);
         } catch (SQLException | ClassNotFoundException throwables) {
             throwables.printStackTrace();

@@ -9,9 +9,13 @@ import okhttp3.Response;
 
 import java.io.IOException;
 
-// Convert the amount of income into national currency
+/**
+ * Convert the amount of income into national currency
+ */
 public class ConverterMoney {
-    // Make request to api
+    /**
+     * Make request to api
+     */
     public static String requestToApi(String base_ccy) throws IOException {
 
         OkHttpClient client = new OkHttpClient();
@@ -31,9 +35,9 @@ public class ConverterMoney {
 
         // Get the client's currency rate
         String costMoney = null;
-        for(PrivatbankJson jsonObj : jsonArray) {
+        for (PrivatbankJson jsonObj : jsonArray) {
 
-            if (jsonObj.base_ccy.equals(base_ccy)){
+            if (jsonObj.base_ccy.equals(base_ccy)) {
                 costMoney = jsonObj.sale;
             }
         }
@@ -41,7 +45,9 @@ public class ConverterMoney {
         return costMoney;
     }
 
-    // Convert Money
+    /**
+     * Convert Money
+     */
     public static double ConvertMoney(Float money, String base_ccy) throws IOException {
         double clients_money;
         // Make request to api
