@@ -71,45 +71,29 @@ public class ClientControler {
         return clients;
     }
 
-    ;
-
     /**
      * Расчет коэффициента относительно кода номера телефона
      *
      * @return Коэффициент относительно кода номера телефона
      */
     public double checkPhone(String phoneNamber) {
-        int lifecell1 = phoneNamber.lastIndexOf("093");
-        int lifecell2 = phoneNamber.lastIndexOf("063");
-        int kievstar1 = phoneNamber.lastIndexOf("097");
-        int kievstar2 = phoneNamber.lastIndexOf("067");
-        int kievstar3 = phoneNamber.lastIndexOf("096");
-        int kievstar4 = phoneNamber.lastIndexOf("098");
-        int vodafon1 = phoneNamber.lastIndexOf("066");
-        int vodafon2 = phoneNamber.lastIndexOf("095");
+        int start = 2;
+        int end = 5;
+        char[] dst=new char[end - start];
+        phoneNamber.getChars(start, end, dst, 0);
 
-        if (lifecell1 != -1) {
-        } else if (lifecell2 != -1) {
+        String s = String.valueOf(dst);
+
+        if (s.equals("093") || s.equals("063")) {
             return 0.93;
-        } else if (kievstar1 != -1) {
-            return 0.93;
-        } else if (kievstar2 != -1) {
+        } else if (s.equals("097") || s.equals("067") || s.equals("096") || s.equals("098")) {
             return 0.95;
-        } else if (kievstar3 != -1) {
-            return 0.95;
-        } else if (kievstar4 != -1) {
-            return 0.95;
-        } else if (vodafon1 != -1) {
-            return 0.94;
-        } else if (vodafon2 != -1) {
-            return 0.94;
+        } else if (s.equals("066") || s.equals("095")) {
+            return  0.94;
         } else {
             return 0.92;
         }
-        return 0.92;
     }
-
-    ;
 
     /**
      * КОнвертация LocalDate в java.sql.Date
@@ -191,8 +175,14 @@ public class ClientControler {
         }
 
         // Convert the amount of income into national currency
-        double monthSalary_UA = ConverterMoney.ConvertMoney(client.getMonthSalary(), client.getCurrSalary());
-
+        try {
+            double monthSalary_UA = ConverterMoney.ConvertMoney(client.getMonthSalary(), client.getCurrSalary());
+        } catch (Exception e) {
+            e.printStackTrace();
+            String textError = "ERROR: " + e.getMessage();
+            logger.error(textError);
+            return textError;
+        }
         // Get all credits client
         try {
             credits = db.selectAllByidClient(client.getIdClient());
