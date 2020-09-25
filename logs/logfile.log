@@ -1,0 +1,151 @@
+2020-09-11 00:34:41.205  WARN 3286 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-11 00:34:43.136  WARN 3286 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-11 00:34:43.358 DEBUG 3286 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-11 00:34:43.477 DEBUG 3286 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2020-09-11 00:34:43.533 DEBUG 3286 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-11 00:34:43.550 DEBUG 3286 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-11 00:35:30.279  WARN 5479 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-11 00:35:32.229  WARN 5479 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-11 00:35:32.448 DEBUG 5479 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-11 00:35:32.567 DEBUG 5479 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2020-09-11 00:35:32.612 DEBUG 5479 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-11 00:35:32.629 DEBUG 5479 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-11 00:45:42.817  WARN 7110 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-11 00:45:44.567  WARN 7110 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-11 00:45:44.791 DEBUG 7110 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-11 00:45:44.880 DEBUG 7110 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2020-09-11 00:45:44.912 DEBUG 7110 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-11 00:45:44.924 DEBUG 7110 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-11 00:45:45.146 ERROR 7110 --- [restartedMain] c.e.bank.controller.ClientControler      : ERROR: No such file or directory
+2020-09-11 00:46:03.494  WARN 7232 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-11 00:46:05.236  WARN 7232 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-11 00:46:05.463 DEBUG 7232 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-11 00:46:05.545 DEBUG 7232 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2020-09-11 00:46:05.582 DEBUG 7232 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-11 00:46:05.598 DEBUG 7232 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-11 00:53:34.413  WARN 7517 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-11 00:53:36.051  WARN 7517 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-11 00:53:36.242 DEBUG 7517 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-11 00:53:36.340 DEBUG 7517 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2020-09-11 00:53:36.380 DEBUG 7517 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-11 00:53:36.399 DEBUG 7517 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-11 09:38:41.437  WARN 6260 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-11 09:38:43.687  WARN 6260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-11 09:38:43.914 DEBUG 6260 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-11 09:38:43.998 DEBUG 6260 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2020-09-11 09:38:44.035 DEBUG 6260 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-11 09:38:44.050 DEBUG 6260 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-11 09:41:11.419  INFO 6260 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-11 09:41:11.419 DEBUG 6260 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-09-11 09:41:11.437 DEBUG 6260 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-09-11 09:41:11.438  INFO 6260 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-09-11 09:41:11.452 DEBUG 6260 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/client", parameters={}
+2020-09-11 09:41:11.457 DEBUG 6260 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.bank.controller.ClientControler#list()
+2020-09-11 09:41:11.594 DEBUG 6260 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-09-11 09:41:11.596 DEBUG 6260 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[{idxRef:'cbbe8d7850b0f8f830bed8a3aa02c5', idClient:132, dateBirthday:1990-10-10, phone:'38093324466 (truncated)...]
+2020-09-11 09:41:11.670 DEBUG 6260 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-09-11 09:41:30.707 DEBUG 6260 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/client", parameters={}
+2020-09-11 09:41:30.708 DEBUG 6260 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.bank.controller.ClientControler#create(String)
+2020-09-11 09:41:30.722 DEBUG 6260 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "text/plain;charset=UTF-8" to ["        {
+           "idClient":2,
+           "dateBirthday":"1990-04-23",
+           "phone":38099 (truncated)...]
+2020-09-11 09:41:32.164 DEBUG 6260 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-09-11 09:41:32.164 DEBUG 6260 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["IdxRef: 4b5ddb364ef7f8cb78df71ac33b90a"]
+2020-09-11 09:41:32.166 DEBUG 6260 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-09-11 14:19:13.402  WARN 36138 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-11 14:19:15.421  WARN 36138 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-11 14:19:15.779 DEBUG 36138 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-11 14:19:15.936 DEBUG 36138 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2020-09-11 14:19:16.003 DEBUG 36138 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-11 14:19:16.027 DEBUG 36138 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-11 14:19:55.261  INFO 36138 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-11 14:19:55.262 DEBUG 36138 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-09-11 14:19:55.274 DEBUG 36138 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-09-11 14:19:55.274  INFO 36138 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-09-11 14:19:55.288 DEBUG 36138 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/client", parameters={}
+2020-09-11 14:19:55.294 DEBUG 36138 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.bank.controller.ClientControler#list()
+2020-09-11 14:19:55.437 DEBUG 36138 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-09-11 14:19:55.441 DEBUG 36138 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[{idxRef:'cbbe8d7850b0f8f830bed8a3aa02c5', idClient:132, dateBirthday:1990-10-10, phone:'38093324466 (truncated)...]
+2020-09-11 14:19:55.533 DEBUG 36138 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-09-11 14:20:31.199 DEBUG 36138 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/client", parameters={}
+2020-09-11 14:20:31.199 DEBUG 36138 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.bank.controller.ClientControler#create(String)
+2020-09-11 14:20:31.213 DEBUG 36138 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "text/plain;charset=UTF-8" to ["        {
+           "idClient":22,
+           "dateBirthday":"1980-04-23",
+           "phone":3809 (truncated)...]
+2020-09-11 14:20:32.257 DEBUG 36138 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-09-11 14:20:32.258 DEBUG 36138 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["IdxRef: c1113780bb2e5d04c556a4d34d2ab2"]
+2020-09-11 14:20:32.259 DEBUG 36138 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-09-11 14:20:41.675 DEBUG 36138 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/client", parameters={}
+2020-09-11 14:20:41.676 DEBUG 36138 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.bank.controller.ClientControler#create(String)
+2020-09-11 14:20:41.677 DEBUG 36138 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "text/plain;charset=UTF-8" to ["        {
+           "idClient":22,
+           "dateBirthday":"1980-04-23",
+           "phone":3809 (truncated)...]
+2020-09-11 14:20:42.405 DEBUG 36138 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-09-11 14:20:42.406 DEBUG 36138 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["IdxRef: 9e95e9268cc3674d45b9a1b1c95f1b"]
+2020-09-11 14:20:42.407 DEBUG 36138 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-09-11 14:20:47.894 DEBUG 36138 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/client", parameters={}
+2020-09-11 14:20:47.895 DEBUG 36138 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.bank.controller.ClientControler#list()
+2020-09-11 14:20:47.925 DEBUG 36138 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-09-11 14:20:47.926 DEBUG 36138 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[{idxRef:'cbbe8d7850b0f8f830bed8a3aa02c5', idClient:132, dateBirthday:1990-10-10, phone:'38093324466 (truncated)...]
+2020-09-11 14:20:47.928 DEBUG 36138 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-09-11 14:21:08.518 DEBUG 36138 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/client", parameters={}
+2020-09-11 14:21:08.518 DEBUG 36138 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.bank.controller.ClientControler#list()
+2020-09-11 14:21:08.578 DEBUG 36138 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-09-11 14:21:08.578 DEBUG 36138 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[{idxRef:'cbbe8d7850b0f8f830bed8a3aa02c5', idClient:132, dateBirthday:1990-10-10, phone:'38093324466 (truncated)...]
+2020-09-11 14:21:08.583 DEBUG 36138 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-09-11 14:21:16.685 DEBUG 36138 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/client", parameters={}
+2020-09-11 14:21:16.685 DEBUG 36138 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.bank.controller.ClientControler#create(String)
+2020-09-11 14:21:16.686 DEBUG 36138 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "text/plain;charset=UTF-8" to ["        {
+           "idClient":22,
+           "dateBirthday":"1980-04-23",
+           "phone":3809 (truncated)...]
+2020-09-11 14:21:17.250 DEBUG 36138 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-09-11 14:21:17.251 DEBUG 36138 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["IdxRef: a79ce196d3029786b7263edfa42636"]
+2020-09-11 14:21:17.251 DEBUG 36138 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-09-11 14:21:31.808 DEBUG 36138 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/client", parameters={}
+2020-09-11 14:21:31.809 DEBUG 36138 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.bank.controller.ClientControler#list()
+2020-09-11 14:21:31.829 DEBUG 36138 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-09-11 14:21:31.830 DEBUG 36138 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[{idxRef:'cbbe8d7850b0f8f830bed8a3aa02c5', idClient:132, dateBirthday:1990-10-10, phone:'38093324466 (truncated)...]
+2020-09-11 14:21:31.831 DEBUG 36138 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-09-11 14:22:21.295 DEBUG 36138 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/client", parameters={}
+2020-09-11 14:22:21.295 DEBUG 36138 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.bank.controller.ClientControler#create(String)
+2020-09-11 14:22:21.296 DEBUG 36138 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "text/plain;charset=UTF-8" to ["        {
+           "idClient":22,
+           "dateBirthday":"1980-04-23",
+           "phone":3809 (truncated)...]
+2020-09-11 14:22:21.879 DEBUG 36138 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-09-11 14:22:21.879 DEBUG 36138 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing ["IdxRef: b50dd9c1f83419e4aa5a7bd83fe0db"]
+2020-09-11 14:22:21.880 DEBUG 36138 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-09-11 14:22:29.017 DEBUG 36138 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/client", parameters={}
+2020-09-11 14:22:29.018 DEBUG 36138 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.bank.controller.ClientControler#list()
+2020-09-11 14:22:29.040 DEBUG 36138 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-09-11 14:22:29.040 DEBUG 36138 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[{idxRef:'cbbe8d7850b0f8f830bed8a3aa02c5', idClient:132, dateBirthday:1990-10-10, phone:'38093324466 (truncated)...]
+2020-09-11 14:22:29.042 DEBUG 36138 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-09-11 14:23:33.674  WARN 36699 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-11 14:23:36.113  WARN 36699 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-11 14:23:36.338 DEBUG 36699 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-11 14:23:36.463 DEBUG 36699 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2020-09-11 14:23:36.494 DEBUG 36699 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-11 14:23:36.505 DEBUG 36699 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-11 14:23:56.218  WARN 36866 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-11 14:23:58.025  WARN 36866 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-11 14:23:58.227 DEBUG 36866 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-11 14:23:58.324 DEBUG 36866 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2020-09-11 14:23:58.360 DEBUG 36866 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-11 14:23:58.372 DEBUG 36866 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-11 14:24:23.474  INFO 36866 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-11 14:24:23.475 DEBUG 36866 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-09-11 14:24:23.492 DEBUG 36866 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-09-11 14:24:23.492  INFO 36866 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-09-11 14:24:23.507 DEBUG 36866 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/client", parameters={}
+2020-09-11 14:24:23.513 DEBUG 36866 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.bank.controller.ClientControler#create(String)
+2020-09-11 14:24:23.618 DEBUG 36866 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "text/plain;charset=UTF-8" to ["        {
+           "idClient":22,
+           "dateBirthday":"1980-04-23",
+           "phone":3809 (truncated)...]
+2020-09-11 14:24:24.589 DEBUG 36866 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-09-11 14:24:24.590 DEBUG 36866 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["IdxRef: 98245456b82f1da6fdc6c40b02302d"]
+2020-09-11 14:24:24.605 DEBUG 36866 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

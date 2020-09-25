@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="34bc7fae-6a80-480a-b949-f32fbe756e48" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bank/controller/ClientControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/controller/ClientControler.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hx2ok7RGxbNCtQOotMCfO4bvRs" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="bank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34bc7fae-6a80-480a-b949-f32fbe756e48" name="Default Changelist" comment="" />
+      <created>1600938600028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600938600028</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="419" y="217" width="1081" height="761" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600939238678">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state x="419" y="217" width="1081" height="761" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.35.1920.1045@0.35.1920.1045" timestamp="1600939238678" />
+    <state x="693" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600939196453">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state x="693" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog/0.35.1920.1045@0.35.1920.1045" timestamp="1600939196453" />
+    <state x="743" y="317" width="432" height="483" key="FileChooserDialogImpl" timestamp="1601014150613">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state x="743" y="317" width="432" height="483" key="FileChooserDialogImpl/0.35.1920.1045@0.35.1920.1045" timestamp="1601014150613" />
+    <state width="1874" height="342" key="GridCell.Tab.0.bottom" timestamp="1600943389942">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="1874" height="342" key="GridCell.Tab.0.bottom/0.35.1920.1045@0.35.1920.1045" timestamp="1600943389942" />
+    <state width="1874" height="342" key="GridCell.Tab.0.center" timestamp="1600943389940">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="1874" height="342" key="GridCell.Tab.0.center/0.35.1920.1045@0.35.1920.1045" timestamp="1600943389940" />
+    <state width="1874" height="342" key="GridCell.Tab.0.left" timestamp="1600943389939">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="1874" height="342" key="GridCell.Tab.0.left/0.35.1920.1045@0.35.1920.1045" timestamp="1600943389939" />
+    <state width="1874" height="342" key="GridCell.Tab.0.right" timestamp="1600943389941">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="1874" height="342" key="GridCell.Tab.0.right/0.35.1920.1045@0.35.1920.1045" timestamp="1600943389941" />
+    <state width="1874" height="342" key="GridCell.Tab.1.bottom" timestamp="1600943389945">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="1874" height="342" key="GridCell.Tab.1.bottom/0.35.1920.1045@0.35.1920.1045" timestamp="1600943389945" />
+    <state width="1874" height="342" key="GridCell.Tab.1.center" timestamp="1600943389943">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="1874" height="342" key="GridCell.Tab.1.center/0.35.1920.1045@0.35.1920.1045" timestamp="1600943389943" />
+    <state width="1874" height="342" key="GridCell.Tab.1.left" timestamp="1600943389942">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="1874" height="342" key="GridCell.Tab.1.left/0.35.1920.1045@0.35.1920.1045" timestamp="1600943389942" />
+    <state width="1874" height="342" key="GridCell.Tab.1.right" timestamp="1600943389944">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="1874" height="342" key="GridCell.Tab.1.right/0.35.1920.1045@0.35.1920.1045" timestamp="1600943389944" />
+  </component>
+</project>

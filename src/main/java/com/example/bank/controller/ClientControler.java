@@ -211,9 +211,9 @@ public class ClientControler {
         // We make a decision
         if (limitItog > requestLimit) {
             limitItog = requestLimit;
-        } else if (monthSalary_UA % limitItog > 60.0) {
+        } if (monthSalary_UA % limitItog > 60.0) {
             limitItog = 0;
-        } else if (period.getYears() > 18) {
+        } if (period.getYears() > 18) {
             limitItog = 0;
         }
         if (limitItog > 0) {
